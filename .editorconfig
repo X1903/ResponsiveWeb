@@ -1,0 +1,20 @@
+# editorconfig.org
+
+root = true
+
+[*]
+charset = utf-8
+indent_size = 4
+
+# 使用空格缩进
+indent_style = space
+
+# 控制空白行结束
+insert_final_newline = true
+
+# 去掉空白字符
+trim_trailing_whitespace = true
+
+
+[*.md]
+trim_trailing_whitespace = false
